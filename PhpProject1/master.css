@@ -1,0 +1,190 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 14-Feb-2015, 12:36:27 PM
+    Author     : midoassran
+*/
+
+html {
+    min-height: 200%;
+}
+
+body {
+    background-color: white;
+    color: black;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+}
+
+.jumbotron {
+    z-index: 11;
+    position: fixed;
+    height: 150px;
+    width: 100%;
+    text-align: center;
+    color: #fd6969;
+    background-color: white;
+    -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out, 
+        height .5s ease-in-out, color .6s ease-in-out;
+    -moz-transition: background .5s ease-in-out,padding .5s ease-in-out, 
+        height .5s ease-in-out, color .6s ease-in-out;
+    transition: background .5s ease-in-out,padding .5s ease-in-out, 
+        height .5s ease-in-out, color .6s ease-in-out;
+}
+
+.jumbotron h1{
+    position: relative;
+    font-family: 'Megrim', cursive;
+    font-weight: 300;
+    position: relative;
+}
+
+@media(min-width:7px) {
+    .jumb-collapse {
+        background-color: #fd6969;
+        padding: 0px 0;
+        height: 100px;
+        color: white;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out, 
+            height .5s ease-in-out, color .6s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out, 
+            height .5s ease-in-out, color .6s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out, 
+            height .5s ease-in-out, color .6s ease-in-out;
+    }
+}
+.errMsge,
+.msge{
+    display: none;
+    width: 500px;
+    height: 100px;
+    position: relative;
+    top: 190px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.msge a {
+    position: relative;
+    z-index: 10;
+}
+
+.about{
+    position: relative;
+    top: 130px;
+}
+
+.section-title{
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.about img{
+    display: block;
+    font-family: 'PT Serif', serif;
+    margin-right: auto;
+    margin-left: auto;
+    width: auto;
+    height: auto;
+}
+
+.about h1 {
+    text-align: center;
+    display: block;
+    font-family: "PT Serf", serif;
+    margin-right: auto;
+    margin-left: auto;
+    width: auto;
+    height: auto;    
+}
+
+.about h3 {
+    font-family: 'PT Serif', serif;
+    font-size: 20px;
+}
+
+.projects {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    font-family: 'PT Serif', serif;
+
+}
+
+.projects h3 {
+    font-family: 'PT Serif', serif;
+    font-size: 20px;
+}
+
+/* resize images */
+.projects .screenshots img {
+    width: 100%;
+    height: auto;
+}
+
+.projects .mobileView{
+    display: block;
+    font-family: 'PT Serif', serif;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.icon-container{
+    margin-left: auto;
+    margin-right: auto;
+    height:60px;
+    width: 203px;
+}
+
+.contact h1 {
+    font-family: "PT Serf", serif;
+
+}
+
+.contact h4 {
+    font-family: 'PT Serif', serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+#feedback .container{
+    width: 520px;
+    margin-top: 20px;
+}
+
+#feedback .counter {
+    display: inline;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 10px;
+}
+
+.posts {
+    clear: both;
+    list-style: none;
+    padding-left: 0;
+    width: 100%;
+}
+
+.posts li {
+    background-color: #fff;
+    border: 1px solid #d8d8d8;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    word-wrap: break-word;
+    min-height: 42px;
+}
+
+.copyright {
+    margin-right: auto;
+    margin-left: auto;
+    width:150px;
+    height: auto;
+    text-align: center;
+}
